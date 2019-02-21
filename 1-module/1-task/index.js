@@ -5,5 +5,9 @@
  * @returns {number}
  */
 function pow (m, n) {
-
+  let pr = 1;
+  for(let i = 1; i <= n; i++) {
+    pr *= x
+  };
+  return pr;
 }
