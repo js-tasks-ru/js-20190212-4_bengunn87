@@ -9,5 +9,6 @@ function pow (m, n) {
   for(let i = 1; i <= n; i++) {
     pr *= x
   };
+  
   return pr;
 }
