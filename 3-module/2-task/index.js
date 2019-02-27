@@ -32,7 +32,7 @@ function getDayInStr(date) {
   if (date.getDay() === 0 || 
       date.getDay() === 6) strDay = '[' + strDay + ']';
   return strDay;
-};
+}; 
 
 
 
