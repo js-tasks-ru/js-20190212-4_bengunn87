@@ -63,6 +63,7 @@ function addTableRow(body, item) {
         td.innerText = item[key];
         tr.appendChild(td);
     };
+    
     body.appendChild(tr);
     return tr;
 }
