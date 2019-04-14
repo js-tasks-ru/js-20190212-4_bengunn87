@@ -7,8 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "karma start karma.conf.js",
-    "build": "webpack-cli"
+    "test": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
