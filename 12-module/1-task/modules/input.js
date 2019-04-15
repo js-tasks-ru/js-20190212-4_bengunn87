@@ -1,13 +1,11 @@
-(function () {
+'use strict';
+import Block from './block'
 
-    class Input extends window.Block {
+export default class Input extends Block {
 
-        get name() {
-            return 'input';
-        }
-
-        setValue() {}
+    get name() {
+        return 'input';
     }
 
-    window.Input = Input;
-})();
+    setValue() {}
+}
